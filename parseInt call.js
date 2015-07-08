@@ -19,12 +19,14 @@ parsePlate("T432T");
 
 //Wrt a function that will execute the parse plate function and tells you the //type
 x = parsePlate("K432O");
-if ( x==="" ){
+if ( x ==="" ){
     console.log("The result is not shown!");
 }
 else if (x !== 432){
     console.log("The result is not identical");
 }
-else (typeof(x)!== number){
-    console.log("The result is not a number ");
+else if (typeof(x)!== number){
+    console.log("The result is not a number");
 }
+
+
